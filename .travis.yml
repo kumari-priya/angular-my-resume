@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - "6"
+
+install:
+  - npm i -g npm@latest
+  - npm i -g @angular/cli@latest
+  - npm i -g firebase-tools@latest
+
+script:
+  - ng build --prod
+
+after_success:
+  - firebase deploy --token "$FIREBASE_TOKEN" --non-interactive --project "kumaripriya-eeb64"
+
+braches:
+  only:
+    - master
+
+sudo: false
