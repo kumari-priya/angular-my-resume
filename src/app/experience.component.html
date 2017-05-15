@@ -1,0 +1,10 @@
+<h4 class="header-text"><button type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-briefcase btn-white"></i></button>{{title}}</h4>
+<ul>
+    <li *ngFor="let experience of experiences">
+        <span>{{experience.role}}</span>
+        <span>{{experience.company}}</span>
+        <span>{{experience.location}}</span>
+        <span>{{experience.duration}}</span>
+        <span>{{experience.summary}}</span>
+    </li>
+</ul>

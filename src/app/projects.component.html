@@ -1,0 +1,9 @@
+<h4 class="header-text"><button type="button" class="btn btn-default btn-circle btn-lg"><i class="glyphicon glyphicon-folder-close btn-white"></i></button>{{title}}</h4>
+<ul>
+    <li *ngFor="let project of projects">
+        <span class="project-name">{{project.name}}</span> -
+        <span>{{project.summary}}</span>
+        <br/>
+        <br/>
+    </li>
+</ul>

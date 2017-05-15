@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+/*Global*/
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    margin: 3% 15%;
+    background-color: #F0F0F0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/*Circle button*/
+.btn-circle.btn-lg {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    background-color: #2D7788;
+    margin: 0px 5px 0px 0px;
+}
+
+.btn-white {
+    color: white !important;
+}
+
+/* Right Bar */
+.right-bar {
+    background-color: #42A8C0;
+    color: white;
+    width: 33%;
+}
+
+.right-bar-section {
+    padding: 7%;
+}
+
+.right-bar-section li {
+    padding: 5px;
+}
+
+.right-bar-line {
+    margin-bottom: 10px;
+}
+
+.header-text-right {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-text-edu {
+    font-weight: bolder;
+}
+
+.edu-text {
+    color: #ACDBE5;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.project-name {
+    color: #2D7788;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Main Container*/
+.header-text {
+    color: #2D7788;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-div {
+    background-color: white !important;
+    margin-bottom: 50px;
+}
+
+.footer-div {
+    padding: 3%;
+    margin: 3%;
+    text-align: center;
+}
+
+.skill-left-div {
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: inline-block !important;
+}
